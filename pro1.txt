@@ -1,0 +1,10 @@
+from abc import ABCmeta,abstractmethod
+class a(metaclass=ABCmeta):
+    @abstractmethod
+    def add():
+        pass
+    @abstractmethod
+    def sub():
+        pass
+inst = a()
+inst.add()
