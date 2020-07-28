@@ -8,3 +8,4 @@ class a(metaclass=ABCmeta):
         pass
 inst = a()
 inst.add()
+modifed 1
